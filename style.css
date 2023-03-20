@@ -1,0 +1,37 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+.Enunciado {
+    background-color: yellow;
+    color: aqua;
+    padding: 50px;
+    position: fixed;
+}
+
+nav {
+    background-color: yellow;
+    color: aqua;
+    position: relative;
+    top: 200px;
+    left: -5px;
+    padding: 25px;
+    
+    }
+
+.Portada {
+    width: auto;
+    height: auto;
+    top: 100px;
+}
+
+section {
+    position: relative;
+    top: 200px;
+    background-color: brown;
+    padding: 25px;
+    left: -5px;
+    color: white;
+}
