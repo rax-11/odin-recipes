@@ -4,34 +4,74 @@
         box-sizing: border-box;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #C0FDFB;
+}
 .Enunciado {
-    background-color: yellow;
+    background-color: #64B6AC;
     color: aqua;
-    padding: 50px;
+    padding: 25px;
     position: fixed;
+    max-width: fit-content;
 }
 
-nav {
+
+
+.Pie {
+    background-color: aquamarine;
+    position: relative;
+    padding: 25px;
+    height: 80px;
+    bottom: -1010px;
+    text-align: center;
+}
+
+
+.Button {
     background-color: yellow;
-    color: aqua;
-    position: relative;
-    top: 200px;
-    left: -5px;
-    padding: 25px;
+    padding: 10px;
+    margin: -150px 0 0 270px;
+    bottom: 5000px;
     
-    }
-
-.Portada {
-    width: auto;
-    height: auto;
-    top: 100px;
 }
 
-section {
+.Container {
+    display: flex;
+    border: 3px solid brown;
+    padding: 0px;
     position: relative;
-    top: 200px;
-    background-color: brown;
-    padding: 25px;
-    left: -5px;
-    color: white;
+    top: 100px;
+    justify-content: space-between;
+    margin: 10 10 0 0 ;
+    
+}
+
+
+.Container div {
+    background: #FCFFFD;
+    height: 50px;
+    flex: 1;
+    font-size: 45px;
+    text-align: center;
+    
+}
+
+.Container > .Recetas {
+    background-color: rgb(76, 218, 199);
+    flex: 2;
+}
+
+.Platos {
+    border: 3px solid black;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
 }
